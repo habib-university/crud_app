@@ -1,0 +1,8 @@
+nodemon allows you to restart the server whenever you make changes.
+
+Asset folder in node directory where all the assets of the project are located.
+
+MVC framework (Models, views, controllers). Separates the application data and business logic from the presentation.
+
+Press .container for div class boilerplate.
+

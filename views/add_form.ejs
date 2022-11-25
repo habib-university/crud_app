@@ -1,0 +1,34 @@
+<!-- include header -->
+<%- include(`include/_header`) %> 
+<!-- /include header -->
+
+<!-- Main Site-->
+<main id = "site-main">
+    <div class = "container">
+        <div class="box-nav d-flex-justify-between">
+            <div class="filter">
+                <a href="/"><i class="fas fa-angle-double-left"></i>All Forms</a>
+            </div>
+        </div>
+    <div class = "form-title text-center">
+        <h2 class = "text-dark">Add New Form</h2>
+    </div>
+
+    <%- include(`include/_section1`) %> 
+    <%- include(`include/_section2`) %>
+    <%- include(`include/_section3`) %>
+    <%- include(`include/_section4`) %>
+    <%- include(`include/_section5`) %>
+    <%- include(`include/_section6`) %>
+    <%- include(`include/_section7`) %>
+    <%- include(`include/_section8`) %>
+
+    <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Save</a>
+    <a href="/" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Cancel</a>         
+
+</main>
+<!-- include footer -->
+    <%- include(`include/_footer`) %> 
+<!-- /include footer -->
+
+</html>
